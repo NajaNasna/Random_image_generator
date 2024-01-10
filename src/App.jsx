@@ -90,17 +90,6 @@ return (
 
   <div className="images">
     {images.map((image) =>
-      
-      // {
-        // return (
-        //   <img 
-        //   key={image.id}
-        //   src={image.urls.small}
-        //   alt={image.alt_description}
-        //   className='image'
-        //   />
-        // )  }
-        // or we can also write without using return using es6 syntax directly as shown below
 
   (
     <img
@@ -108,7 +97,6 @@ return (
       src={image.urls.small}
       alt={image.alt_description}
       className='image'
-
     />
  )
 )}
